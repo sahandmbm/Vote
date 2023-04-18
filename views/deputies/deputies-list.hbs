@@ -1,0 +1,14 @@
+{{#each deputies.Legislatura.Deputados.pt_ar_wsgode_objectos_DadosDeputadoSearch}}
+<div class="col">
+  <div class="card h-100">
+    <div class="card-body">
+      <h5 class="card-title">Nome: {{depNomeCompleto}}</h5>
+      <p class="card-text">Partido: {{depGP.pt_ar_wsgode_objectos_DadosSituacaoGP.gpSigla}}</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Circulo Eleitoral: {{depCPDes}}</small>
+    </div>
+  </div>
+</div>
+{{/each}}
+
